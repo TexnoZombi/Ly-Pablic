@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Ly-Public",
+  description: "Информационная платформа",
 };
 
 import PageIllustration from "@/components/page-illustration";
