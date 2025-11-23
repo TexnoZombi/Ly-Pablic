@@ -11,7 +11,7 @@ export default function Cta() {
         <Image
           className="max-w-none"
           src={BlurredShape}
-          width={760}
+          width={761}
           height={668}
           alt="Blurred shape"
         />
