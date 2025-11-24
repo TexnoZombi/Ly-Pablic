@@ -15,10 +15,10 @@ export default function Home() {
     <>
       <PageIllustration />
       <Hero />
-      <Workflows />
+      {/* <Workflows />
       <Features />
       <Testimonials />
-      <Cta />
+      <Cta /> */}
     </>
   );
 }
