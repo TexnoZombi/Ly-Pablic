@@ -48,30 +48,6 @@ export default function Footer() {
                   Pricing &amp; Plans
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Changelog
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Our method
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  User policy
-                </a>
-              </li>
             </ul>
           </div>
           {/* 2nd block */}
@@ -100,22 +76,6 @@ export default function Footer() {
                   href="#0"
                 >
                   Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Financial statements
                 </a>
               </li>
             </ul>
@@ -178,22 +138,6 @@ export default function Footer() {
                   href="#0"
                 >
                   Knowledge base
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Learn
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Cookie manager
                 </a>
               </li>
             </ul>
