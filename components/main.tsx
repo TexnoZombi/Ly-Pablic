@@ -6,21 +6,32 @@ import WorflowImg01 from "@/public/images/workflow-01.png";
 import WorflowImg02 from "@/public/images/workflow-02.png";
 import WorflowImg03 from "@/public/images/workflow-03.png";
 
-export default function HeroHome() {
+export default function Main() {
   return (
-    <section>
+    <section className="pt-10 md:pt-30">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        {/* Hero content */}
         <div className="py-12 md:py-20">
-          {/* Новости */}
+          {/* Все публикации */}
           <div className="text-center pb-8 md:pb-20">
             <h1
               className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-4xl"
               data-aos="fade-up"
             >
-              Новости
+              Публикации
             </h1>
-            <div className="mx-auto max-w-3xl">
+            <div className="mx-auto max-w-4xl mb-8">
+              <div className="border-t border-b w-full py-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]">
+                <div className="flex flex-1 gap-2 items-center">
+                  <span className="w-full btn-sm relative bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] py-[5px] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] flex items-center justify-center gap-2">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 5V19M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                    Создать публикацию
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="mx-auto max-w-4xl">
               {/* Card 1 */}
               <div className="rounded-2xl bg-gray-900/90 mb-5">
                 <Spotlight className="group mx-auto flex max-w-sm flex-col items-start gap-5 lg:max-w-none">
@@ -174,7 +185,7 @@ export default function HeroHome() {
               </div>
 
               {/* Card 3 */}
-              <div className="rounded-2xl bg-gray-900/90">
+              <div className="rounded-2xl bg-gray-900/90 mb-5">
                 <Spotlight className="group mx-auto flex max-w-sm flex-col items-start gap-5 lg:max-w-none">
                   <a
                     className="group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 hover:after:opacity-20 group-hover:before:opacity-100"
@@ -247,20 +258,9 @@ export default function HeroHome() {
                     </div>
                   </div>
               </div>
-            </div>
-          </div>
 
-          {/* Посты */}
-          <div className="text-center md:pb-20">
-            <h1
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-4xl"
-              data-aos="fade-up"
-            >
-              Посты
-            </h1>
-            <div className="mx-auto max-w-3xl">
-              {/* Card 1 */}
-              <div className="rounded-2xl bg-gray-900/90 mb-5">
+               {/* Card 4 */}
+               <div className="rounded-2xl bg-gray-900/90 mb-5">
                 <Spotlight className="group mx-auto flex max-w-sm flex-col items-start gap-5 lg:max-w-none">
               
                   <a
@@ -335,7 +335,8 @@ export default function HeroHome() {
                   </div>
                 </div>
               </div>
-              {/* Card 2 */}
+
+              {/* Card 5 */}
               <div className="rounded-2xl bg-gray-900/90 mb-5">
                 <Spotlight className="group mx-auto flex max-w-sm flex-col items-start gap-5 lg:max-w-none">
               
@@ -411,7 +412,8 @@ export default function HeroHome() {
                   </div>
                 </div>
               </div>
-              {/* Card 3 */}
+
+              {/* Card 6 */}
               <div className="rounded-2xl bg-gray-900/90">
                 <Spotlight className="group mx-auto flex max-w-sm flex-col items-start gap-5 lg:max-w-none">
               

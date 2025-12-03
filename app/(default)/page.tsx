@@ -1,12 +1,11 @@
-
-
 export const metadata = {
-  title: "Ly-Public",
+  title: "Главная",
   description: "Информационная платформа",
 };
 
 import PageIllustration from "@/components/page-illustration";
-import Hero from "@/components/hero-home";
+import Main from "@/components/main";
+import Footer from "@/components/ui/footer";
 import StudioContent from "@/components/workflows";
 import Workflows from "@/components/workflows";
 import Features from "@/components/features";
@@ -17,7 +16,8 @@ export default function Home() {
   return (
     <>
       <PageIllustration />
-      <Hero />
+      <Main />
+      <Footer />
       {/* <Workflows />
       <Features />
       <Testimonials />
@@ -26,30 +26,3 @@ export default function Home() {
   );
 }
 
-// export default function Home() {
-//   const [currentSection, setCurrentSection] = useState('home');
-
-//   const renderContent = () => {
-//     switch(currentSection) {
-//       case 'home':
-//         return <Hero />;
-//       case 'studio':
-//         return <StudioContent />;
-//       // case 'new':
-//       //   return <NewContent />;
-//       // case 'news':
-//       //   return <NewsContent />;
-//       // case 'posts':
-//       //   return <PostsContent />;
-//       default:
-//         return <Hero />;
-//     }
-//   };
-
-//   return (
-//     <>
-//       <PageIllustration />
-//       {renderContent()}
-//     </>
-//   );
-// }
